@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "globalmindassociatedtesttusk"
+version = "0.1.0"
+description = ""
+authors = ["KittGT42 <114111458+KittGT42@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+peewee = "^3.17.6"
+aiohttp = "^3.9.5"
+peewee-async = "^0.12.0"
+aiopg = "^1.4.0"
+pytest = "^8.3.2"
+pytest-aiohttp = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
